@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TON Gift Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Connect Your TON Wallet</h1>
+        <button id="connect-wallet">Connect Wallet</button>
+        <div id="gift-creation" style="display:none;">
+            <h2>Create a Gift</h2>
+            <input type="text" id="amount" placeholder="Amount in TON">
+            <input type="number" id="users" placeholder="Number of Users">
+            <button id="create-gift">Create Gift</button>
+        </div>
+        <div id="message" style="display:none;"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
